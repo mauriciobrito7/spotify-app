@@ -2,6 +2,8 @@
 @import './fonts.css';
 @import './body.css';
 @import './link.css';
+@import './button-icon.css';
+@import './logo.css';
 
 @font-face {
   font-family: 'Avenir';
@@ -30,21 +32,4 @@
   --basefont-normal: normal 0.875rem/1.375rem var(--basefontFamily); 
   --basefont-bold: bold 0.875rem/1.375rem var(--basefontFamily);
   --small: normal .75rem/normal var(--basefontFamily);
-}
-
-body {
-  font: var(--basefont-normal);
-}
-
-h1{
-  font: var(--headline1);
-  color: var(--primary);
-}
-
-h2{
-  font: var(--headline2);
-}
-
-p{
-  color: var(--gray20);
 }
