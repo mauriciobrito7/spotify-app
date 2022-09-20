@@ -6,6 +6,8 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
+@import './player-controls.css';
+@import './player-playback.css';
 
 @font-face {
   font-family: 'Avenir';
