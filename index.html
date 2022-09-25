@@ -8,12 +8,37 @@
 		<title>Spotifu</title>
 	</head>
 	<body class="body">
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
-			molestiae dignissimos aliquam libero officia laboriosam tenetur! Unde,
-			iure quisquam! Ab nobis, voluptate repellat aliquam repellendus ullam
-			suscipit porro corporis provident.
-		</p>
+		<div class="nowPlaying">
+			<div class="nowPlaying-cover">
+				<img
+					src="./images/MiniCover.png"
+					title="Portada de Grand Escape (feat. Tokio Miura)"
+					width="56"
+					height="56"
+					alt="Portada de Grand Escape (feat. Tokio Miura)"
+				/>
+			</div>
+			<div class="nowPlaying-details">
+				<div class="nowPlaying-description">
+					<a href="#song" class="nowPlaying-title"
+						>Grand Escape (feat. Tokio Miura)</a
+					>
+					<a href="#RADWINMPS" class="nowPlaying-artist"
+						>RADWINMPS, Tokio Miura</a
+					>
+				</div>
+				<div class="nowPlaying-actions">
+					<button
+						role="switch"
+						aria-label="Guardar en tu biblioteca"
+						title="Guardar en tu biblioteca"
+						class="player-control"
+					>
+						<i class="icon-heart" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+		</div>
 		<div class="playerControls">
 			<div
 				class="playerControls-buttons"
@@ -49,7 +74,11 @@
 			</div>
 		</div>
 		<div class="playerVolume">
-			<button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
+			<button
+				class="player-control"
+				aria-label="Silenciar"
+				aria-describedby="volume-icon"
+			>
 				<i
 					class="icon-volume-up"
 					id="volume-icon"
